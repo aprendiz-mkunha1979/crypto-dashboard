@@ -39,24 +39,30 @@ Siga as instruções abaixo para rodar o projeto no seu ambiente de desenvolvime
 1. Clone o repositório:
 ```bash
 git clone [https://github.com/SEU_USUARIO/crypto-dashboard.git](https://github.com/aprendiz-mkunha1979/crypto-dashboard.git)
+```
 
 2. Entre no diretório do projeto:
 ```bash
 cd crypto-dashboard
+```
 
 3. Instale as dependências:
 ```bash
 npm install
+```
 
 4. Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
+```
 
-5.Abra ![http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+5. Abra ![http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
 ### 🏗️ Arquitetura do Projeto
 
 A base de código segue o princípio de Separação de Responsabilidades (Separation of Concerns), isolando a lógica de conexão de rede, tipagens, e regras visuais:
+
+```text
 src/
 ├── app/
 │   └── page.tsx                 # View principal e orquestração de estado global
@@ -67,6 +73,7 @@ src/
 │   └── useCryptoWebSocket.ts    # Custom Hook encapsulando a conexão e gestão do WebSocket
 └── types/
     └── crypto.ts                # Contratos de interface TypeScript (Data Models)
+```
 
 ### 📄 Licença
 
