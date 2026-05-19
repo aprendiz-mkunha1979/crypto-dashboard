@@ -38,7 +38,7 @@ Siga as instruções abaixo para rodar o projeto no seu ambiente de desenvolvime
 
 1. Clone o repositório:
 ```bash
-git clone [https://github.com/SEU_USUARIO/crypto-dashboard.git](https://github.com/aprendiz-mkunha1979/crypto-dashboard.git)
+git clone https://github.com/aprendiz-mkunha1979/crypto-dashboard
 ```
 
 2. Entre no diretório do projeto:
